@@ -1,11 +1,11 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {Component} from 'react';
-import {View, Text, TouchableOpacity, Alert} from 'react-native';
+import {View, Text, TouchableOpacity, Alert, AsyncStorage } from 'react-native';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Button from 'apsl-react-native-button';
 import {Input, Icon} from 'react-native-elements';
-import { AsyncStorage } from 'react-native';
+
 
 class Login extends Component {
   constructor(props) {
@@ -70,7 +70,7 @@ class Login extends Component {
         <View
           style={{
             alignItems: 'center',
-            marginTop: 30,
+            marginTop: 70,
           }}>
           <Icon name="opencart" type="font-awesome" color="#212121" size={50} />
 
